@@ -10,6 +10,6 @@
 </head>
 
 <body>
-    <div id="app"></div>
+    <div id="app" data-page="{{ $page }}"></div>
 </body>
 </html>

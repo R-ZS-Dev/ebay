@@ -1,18 +1,3 @@
-<script setup>
-    import { ref } from "vue";
-
-    defineProps({
-        isOpen: {
-            type: Boolean,
-            default: true,
-        },
-    });
-
-    const productDetailOpen = ref(false);
-    const skuDetailOpen = ref(false);
-    const settingOpen = ref(false);
-</script>
-
 <template>
     <aside
         class="fixed left-0 top-0 z-40 h-screen w-64 overflow-y-auto bg-gray-900 text-white transition-transform duration-300"
@@ -57,7 +42,7 @@
 
                 <!-- Dropdown Items -->
                 <div v-if="productDetailOpen" class="mt-1 space-y-1 pl-4">
-                    <a href="#" class="block rounded-lg px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-white" >
+                    <a href="/products" class="block rounded-lg px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-white" >
                         Products
                     </a>
 
@@ -164,3 +149,18 @@
         </nav>
     </aside>
 </template>
+
+<script setup>
+    import { ref } from "vue";
+
+    defineProps({
+        isOpen: {
+            type: Boolean,
+            default: true,
+        },
+    });
+
+    const productDetailOpen = ref(false);
+    const skuDetailOpen = ref(false);
+    const settingOpen = ref(false);
+</script>

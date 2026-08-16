@@ -5,6 +5,9 @@ import AppLayout from '../components/AppLayout.vue';
 
 <template>
     <AppLayout>
-        <h1 class="text-3xl font-bold text-gray-800">Products</h1>
+        <div class="">
+            <button></button>
+            <button></button>
+        </div>
     </AppLayout>
 </template>

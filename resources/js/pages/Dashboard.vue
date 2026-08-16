@@ -31,11 +31,14 @@
 
         <!-- Graph -->
         <div class="grid grid-cols-1 mt-2">
-            <div class="rounded-xl bg-white p-6 shadow"></div>
+            <div class="rounded-xl bg-white p-6 shadow">
+                <RevenueChart />
+            </div>
         </div>
     </AppLayout>
 </template>
 
 <script setup>
-import AppLayout from "../components/AppLayout.vue";
+    import AppLayout from "../components/AppLayout.vue";
+    import RevenueChart from "../components/RevenueChart.vue";
 </script>

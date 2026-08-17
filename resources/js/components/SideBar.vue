@@ -42,21 +42,17 @@
 
                 <!-- Dropdown Items -->
                 <div v-if="productDetailOpen" class="mt-1 space-y-1 pl-4">
-                    <a href="/products" class="block rounded-lg px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-white" >
+                    <a href="/product/products" class="block rounded-lg px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-white" >
                         Products
                     </a>
 
-                    <a href="#" class="block rounded-lg px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-white" >
+                    <a href="/product/categories" class="block rounded-lg px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-white" >
                         Category
                     </a>
 
-                    <a href="#" class="block rounded-lg px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-white" >
+                    <a href="/product/subcategories" class="block rounded-lg px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-white" >
                         Sub Category
-                    </a>
-
-                    <a href="#" class="block rounded-lg px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-white" >
-                        Channel Record
-                    </a>
+                    </a>                    
                 </div>
             </div>
 
@@ -103,8 +99,12 @@
             </div>
 
             <!-- Order -->
-            <a href="#" class="mb-2 block rounded-lg px-4 py-3 hover:bg-gray-800" >
+            <a href="/order/orders" class="mb-2 block rounded-lg px-4 py-3 hover:bg-gray-800" >
                 Order
+            </a>
+
+            <a href="/channelrecords" class="mb-2 block rounded-lg px-4 py-3 hover:bg-gray-800" >
+                Channel Record
             </a>
 
             <!-- Setting DropDown -->

@@ -6,3 +6,5 @@
 "vite": "^7.0.7"
 
 For Ghraph chart install this: npm install chart.js vue-chartjs
+
+SVG Icons use: https://lucide.dev/icons/antenna

@@ -1,0 +1,3 @@
+warehouse_name,warehouse_code,address_line_1,address_line_2,address_line_3,state_or_region,postal_code,city,country_code,email,phone_number,sub_category,dispatch_warehouse_code,allow_main_warehouse,is_main
+North Warehouse,WH-01,"TYSELEY PARK, WHARFDALE ROAD, TYSELEY",,,West Midlands,B11 2DF,Birmingham,GB,manthartyseley01@gmail.com,4.47769E+11,Mobile Phones,WH-01,TRUE,TRUE
+South Warehouse,WH-02,South address line 1,,,West Midlands,B11 2DF,Birmingham,GB,warehouse@example.com,4.477E+11,Chairs,WH-02,FALSE,FALSE
